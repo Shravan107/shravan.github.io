@@ -1,8 +1,12 @@
 body {
-    color: #797979;
-    background: #f1f2f7;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    color: #797979 !important;
+    background: #f1f2f7 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px !important;
+}
+
+.margin {
+	margin: 8px !important;
 }
 
 .profile-nav .user-heading {
@@ -43,10 +47,6 @@ body {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   margin-left: 0;
   margin-right: 0px;
-}
-
-.user-tabs .nav.nav-tabs {
-  box-shadow: none !important;
 }
 
 .user-tabs .nav.nav-tabs a {
@@ -125,4 +125,85 @@ body {
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover {
   color: #6e8cd7 !important;
+}
+
+.tab-content {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  color: #777777;
+  background: #ffffff;
+  display: table-cell;
+  margin-bottom: 30px;
+  padding: 30px;
+  vertical-align: top;
+}
+
+.profile-tab-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 35px;
+}
+
+.panel {
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.panel .panel-body {
+  padding: 20px;
+}
+
+.panel .panel-body p {
+  margin: 0px;
+}
+
+.panel .panel-body p + p {
+  margin-top: 15px;
+}
+
+.panel-heading {
+  border-radius: 0;
+  border: none !important;
+  padding: 10px 20px;
+}
+
+.panel-default > .panel-heading {
+  background-color: #fafafa;
+  border-bottom: none;
+  color: #797979;
+}
+
+.panel-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.panel-fill {
+  border-radius: 3px;
+}
+
+.panel-fill .panel-heading {
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.panel-fill .panel-body {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.panel-fill.panel-default .panel-body {
+  color: #666;
+}
+
+.panel-fill.panel-default .panel-heading {
+  background-color: transparent;
+  color: #333333;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
