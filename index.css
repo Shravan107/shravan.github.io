@@ -38,5 +38,91 @@ body {
     font-size: 12px;
 }
 
+.user-tabs {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-left: 0;
+  margin-right: 0px;
+}
 
+.user-tabs .nav.nav-tabs {
+  box-shadow: none !important;
+}
 
+.user-tabs .nav.nav-tabs a {
+  text-transform: uppercase;
+}
+
+.tabs {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.tabs li.tab {
+  background-color: #ffffff;
+  display: block;
+  float: left;
+  margin: 0;
+  text-align: center;
+}
+
+.tabs li.tab a {
+  -moz-transition: color 0.28s ease;
+  -ms-transition: color 0.28s ease;
+  -o-transition: color 0.28s ease;
+  -webkit-transition: color 0.28s ease;
+  color: #ee6e73;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  transition: color 0.28s ease;
+  width: 100%;
+}
+
+.tabs li.tab a.active {
+  color: #6e8cd7 !important;
+}
+
+.nav.nav-tabs + .tab-content {
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.nav.nav-tabs > li.active > a {
+  background-color: #ffffff;
+  border: 0;
+}
+
+.nav.nav-tabs > li > a {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  color: #333333 !important;
+  cursor: pointer;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.nav.nav-tabs > li > a:hover {
+  color: #6e8cd7 !important;
+}
+
+.nav.nav-tabs > li:last-of-type a {
+  margin-right: 0px;
+}
+
+.nav.nav-tabs {
+  border-bottom: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #6e8cd7 !important;
+}
