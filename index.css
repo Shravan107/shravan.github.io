@@ -207,3 +207,16 @@ body {
   color: #333333;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
+
+.about-me {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  font-family: emoji;
+}
+
+.education {
+  white-space: pre-wrap;
+  font-size: 1.5rem;
+  white-space: pre-wrap;
+}
